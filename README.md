@@ -18,4 +18,4 @@ This assignment is to test the implementation of below knowledge
 
 | Site       | Link |
 | :--------- | :--- |
-| Assignment |      |
+| Assignment |   https://65450a68247b885eb61725cb--inspiring-marshmallow-57c131.netlify.app/   |
