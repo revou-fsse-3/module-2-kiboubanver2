@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <h1 class="logo">Explore Sijunjung</h1>
+    <ul class="nav-links">
+      <li class="nav-item"><a href="#">Home</a></li>
+      <li class="nav-item"><a href="#">About</a></li>
+      <li class="nav-item"><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="banner">
+    <div class="content">
+      <h2>Welcome To Sijunjung</h2>
+      <h3>Experience The Culture Of West Sumatera</h3>
+    </div>
+  </header>
+
+  <main>
+    <h2 class="2nd-title">Destinations</h2>
+    <div class="image-grid">
+    <img src="assets/66537.jpg" alt="Image of people doing Berkaul" class="image-grid-col-2 image-grid-row-2">
+    <img src="assets/IMG-20221006-WA0005.jpg" alt="Image of Silokek">
+    <img src="assets/624f8ca8d1722-ngalau-basurek-silokek.jpg" alt="Image of Batu Basurek">
+    <img src="assets/IMG-20220515-WA0089.jpg" alt="Another Image of People Doing Berkaul">
+    <img src="assets/624f8d7b830b5-panorama-bukit-karst-silokek.jpg" alt="Image of Panorama Bukit Karst Silokek">
+    </div>
+  </main>
+
+  <div class="body2">
+  <article class="wrapper">
+    <h3>About Sijunjung</h3>
+    <picture >
+      <source
+        srcset="/assets/20191007_123253-1-1068x801.webp"
+        media="(min-width: 800px)">
+      <img class="resimage" src="assets/Screenshot.png" alt="Sijunjung Government Office">
+  </picture>
+    <div class="text-box">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </article>
+  </div>
+
+  <div class="form-align">
+
+    <div class="container">
+
+      <h3>Register Form</h3>
+  
+      <form class="form">
+  
+        <div class="input-box">
+          <label>Full Name</label>
+          <input required="" oninvalid="this.setCustomValidity('Name?')" 
+          oninput="this.setCustomValidity('')" placeholder="Enter Full Name" type="text">
+        </div>
+  
+        <div class="column1">
+          <div class="input-box">
+            <label>Phone Number</label>
+            <input required="" placeholder="Enter Phone Number" type="telephone">
+          </div>
+  
+          <div class="input-box">
+            <label>Birth Date</label>
+            <input required="" placeholder="Enter Birth Date" type="date">
+          </div>
+  
+        </div>
+  
+        <div class="gender-box">
+          <label>Gender</label>
+          <div class="gender-option">
+            <div class="gender">
+              <input checked="" name="gender" id="chek-male" type="radio">
+              <label for="check-male">Male</label>
+            </div>
+  
+            <div class="gender">
+            <input checked="" name="gender" id="chek-female" type="radio">
+            <label for="check-male">Female</label>
+            </div>
+  
+          </div>
+  
+        </div>
+  
+        <button>Submit</button>
+  
+      </form>
+  
+    </div>
+
+  </div>
+
+  <footer>
+
+  </footer>
+
+</body>
+</html>
